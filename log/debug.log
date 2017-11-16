@@ -1,0 +1,23 @@
+[2017-11-15 15:24:57.751] [DEBUG] debuglog - { page: 1,
+  count: 1,
+  limit: 9,
+  pages: 1,
+  content: 
+   [ { projectID: 5a0badc9efe7c71adc4f83b2,
+       proName: '123',
+       proDate: 2017-11-15T03:00:25.091Z,
+       culturalCount: 5,
+       publishedCount: 1 } ] } 'get:./'
+[2017-11-15 15:39:56.344] [DEBUG] debuglog - { page: 1,
+  count: 1,
+  limit: 9,
+  pages: 1,
+  content: 
+   [ { projectID: 5a0badc9efe7c71adc4f83b2,
+       proName: '123',
+       proDate: 2017-11-15T03:00:25.091Z,
+       culturalCount: 5,
+       publishedCount: 1 } ] } 'get:./'
+[2017-11-15 15:40:20.779] [DEBUG] debuglog - { page: 1, count: 0, limit: 9, pages: 0, content: [] } 'get:./'
+[2017-11-15 15:40:23.664] [DEBUG] debuglog - { page: 1, count: 0, limit: 9, pages: 0, content: [] } 'get:./'
+[2017-11-15 16:28:55.494] [DEBUG] debuglog - { page: 1, count: 0, limit: 9, pages: 0, content: [] } 'get:./'

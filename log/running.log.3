@@ -1,0 +1,153 @@
+[2017-11-15 11:51:18.775] [INFO] runninglog - 数据库连接成功
+[2017-11-15 11:51:18.783] [INFO] runninglog - listening 3002
+[2017-11-15 12:01:57.731] [INFO] runninglog - 数据库连接成功
+[2017-11-15 12:01:57.738] [INFO] runninglog - listening 3002
+[2017-11-15 13:50:53.435] [INFO] runninglog - 数据库连接成功
+[2017-11-15 13:50:53.443] [INFO] runninglog - listening 3002
+[2017-11-15 14:17:52.248] [INFO] runninglog - 数据库连接成功
+[2017-11-15 14:17:52.259] [INFO] runninglog - listening 3002
+[2017-11-15 14:31:37.360] [INFO] runninglog - 数据库连接成功
+[2017-11-15 14:31:37.369] [INFO] runninglog - listening 3002
+[2017-11-15 14:34:46.584] [ERROR] runninglog - { CastError: Cast to ObjectId failed for value "{ _id: undefined }" at path "_id"
+    at CastError (D:\threeplatform\ThreePlatform\node_modules\mongoose\lib\error\cast.js:27:11)
+    at ObjectId.cast (D:\threeplatform\ThreePlatform\node_modules\mongoose\lib\schema\objectid.js:158:13)
+    at ObjectId.SchemaType._castForQuery (D:\threeplatform\ThreePlatform\node_modules\mongoose\lib\schematype.js:1064:15)
+    at ObjectId.castForQuery (D:\threeplatform\ThreePlatform\node_modules\mongoose\lib\schema\objectid.js:198:15)
+    at ObjectId.SchemaType.castForQueryWrapper (D:\threeplatform\ThreePlatform\node_modules\mongoose\lib\schematype.js:1021:15)
+    at cast (D:\threeplatform\ThreePlatform\node_modules\mongoose\lib\cast.js:214:34)
+    at model.Query.Query.cast (D:\threeplatform\ThreePlatform\node_modules\mongoose\lib\query.js:3109:12)
+    at model.Query.Query._castConditions (D:\threeplatform\ThreePlatform\node_modules\mongoose\lib\query.js:1145:10)
+    at model.Query.Query._findOne (D:\threeplatform\ThreePlatform\node_modules\mongoose\lib\query.js:1352:8)
+    at D:\threeplatform\ThreePlatform\node_modules\kareem\index.js:250:8
+    at D:\threeplatform\ThreePlatform\node_modules\kareem\index.js:23:7
+    at _combinedTickCallback (internal/process/next_tick.js:67:7)
+    at process._tickCallback (internal/process/next_tick.js:98:9)
+  message: 'Cast to ObjectId failed for value "{ _id: undefined }" at path "_id" for model "project"',
+  name: 'CastError',
+  stringValue: '"{ _id: undefined }"',
+  kind: 'ObjectId',
+  value: { _id: undefined },
+  path: '_id',
+  reason: undefined,
+  model: 
+   { [Function: model]
+     hooks: Kareem { _pres: {}, _posts: {} },
+     base: 
+      Mongoose {
+        connections: [Object],
+        models: [Object],
+        modelSchemas: [Object],
+        options: [Object],
+        plugins: [Object] },
+     modelName: 'project',
+     model: [Function: model],
+     db: 
+      NativeConnection {
+        base: [Object],
+        collections: [Object],
+        models: [Object],
+        config: [Object],
+        replica: false,
+        hosts: null,
+        host: 'localhost',
+        port: 27017,
+        user: null,
+        pass: null,
+        name: 'threePlatform',
+        options: null,
+        otherDbs: [],
+        states: [Object],
+        _readyState: 1,
+        _closeCalled: false,
+        _hasOpened: true,
+        _listening: false,
+        _connectionOptions: {},
+        db: [Object] },
+     discriminators: undefined,
+     '$appliedHooks': true,
+     _events: { init: [Function], save: [Function] },
+     _eventsCount: 2,
+     schema: 
+      Schema {
+        obj: [Object],
+        paths: [Object],
+        aliases: {},
+        subpaths: {},
+        virtuals: [Object],
+        singleNestedPaths: {},
+        nested: {},
+        inherits: {},
+        callQueue: [Object],
+        _indexes: [],
+        methods: {},
+        statics: {},
+        tree: [Object],
+        query: {},
+        childSchemas: [Object],
+        plugins: [Object],
+        s: [Object],
+        options: [Object],
+        '$globalPluginsApplied': true,
+        _requiredpaths: [] },
+     collection: 
+      NativeCollection {
+        collection: [Object],
+        opts: [Object],
+        name: 'projects',
+        collectionName: 'projects',
+        conn: [Object],
+        queue: [],
+        buffer: false,
+        emitter: [Object] },
+     Query: { [Function] base: [Object] },
+     '$__insertMany': [Function],
+     insertMany: [Function],
+     modelAsync: [Function: ret],
+     QueryAsync: [Function: ret],
+     '$__insertManyAsync': [Function: ret],
+     insertManyAsync: [Function: ret],
+     discriminatorAsync: [Function: ret],
+     setMaxListenersAsync: [Function: ret],
+     getMaxListenersAsync: [Function: ret],
+     emitAsync: [Function: ret],
+     addListenerAsync: [Function: ret],
+     onAsync: [Function: ret],
+     prependListenerAsync: [Function: ret],
+     onceAsync: [Function: ret],
+     prependOnceListenerAsync: [Function: ret],
+     removeListenerAsync: [Function: ret],
+     removeAllListenersAsync: [Function: ret],
+     listenersAsync: [Function: ret],
+     listenerCountAsync: [Function: ret],
+     eventNamesAsync: [Function: ret],
+     initAsync: [Function: ret],
+     ensureIndexesAsync: [Function: ret],
+     translateAliasesAsync: [Function: ret],
+     removeAsync: [Function: ret],
+     deleteOneAsync: [Function: ret],
+     deleteManyAsync: [Function: ret],
+     findAsync: [Function: ret],
+     findByIdAsync: [Function: ret],
+     findOneAsync: [Function: ret],
+     countAsync: [Function: ret],
+     distinctAsync: [Function: ret],
+     whereAsync: [Function: ret],
+     '$whereAsync': [Function: ret],
+     findOneAndUpdateAsync: [Function: ret],
+     findByIdAndUpdateAsync: [Function: ret],
+     findOneAndRemoveAsync: [Function: ret],
+     findByIdAndRemoveAsync: [Function: ret],
+     createAsync: [Function: ret],
+     bulkWriteAsync: [Function: ret],
+     hydrateAsync: [Function: ret],
+     updateAsync: [Function: ret],
+     updateManyAsync: [Function: ret],
+     updateOneAsync: [Function: ret],
+     replaceOneAsync: [Function: ret],
+     mapReduceAsync: [Function: ret],
+     geoNearAsync: [Function: ret],
+     aggregateAsync: [Function: ret],
+     geoSearchAsync: [Function: ret],
+     populateAsync: [Function: ret],
+     compileAsync: [Function: ret],
+     '$wrapCallbackAsync': [Function: ret] } }
